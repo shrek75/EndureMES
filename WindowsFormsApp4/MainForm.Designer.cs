@@ -138,6 +138,7 @@ namespace WindowsFormsApp4
             this.toolStripButton5.Name = "toolStripButton5";
             this.toolStripButton5.Size = new System.Drawing.Size(200, 60);
             this.toolStripButton5.Text = "설비이상치탐지";
+            this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
             // 
             // toolStripSeparator5
             // 
@@ -153,6 +154,7 @@ namespace WindowsFormsApp4
             this.toolStripButton6.Name = "toolStripButton6";
             this.toolStripButton6.Size = new System.Drawing.Size(200, 60);
             this.toolStripButton6.Text = "작업지시등록";
+            this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
             // toolStripSeparator6
             // 

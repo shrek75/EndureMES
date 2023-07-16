@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp4
 {
-    partial class Form2
+    partial class M01_Schedule
     {
         /// <summary>
         /// Required designer variable.
@@ -35,22 +35,22 @@ namespace WindowsFormsApp4
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(377, 219);
+            this.label1.Location = new System.Drawing.Point(106, 127);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 12);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "2번화면";
+            this.label1.TabIndex = 0;
+            this.label1.Text = "1번화면";
             // 
-            // Form2
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1340, 786);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "Form1";
+            this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp4
 {
-    public partial class Form2 : Form
+    public partial class M04_AnomalyDetection : Form
     {
-        public Form2()
+        public M04_AnomalyDetection()
         {
             InitializeComponent();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp4
 {
-    public partial class Form3 : Form
+    public partial class M01_Schedule : Form
     {
-        public Form3()
+        public M01_Schedule()
         {
             InitializeComponent();
         }

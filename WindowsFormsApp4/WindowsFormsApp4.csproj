@@ -46,23 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="M01_Schedule.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="M01_Schedule.Designer.cs">
+      <DependentUpon>M01_Schedule.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="M02_Monitoring.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="M02_Monitoring.Designer.cs">
+      <DependentUpon>M02_Monitoring.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="M03_FacilityManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="M03_FacilityManagement.Designer.cs">
+      <DependentUpon>M03_FacilityManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M04_AnomalyDetection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M04_AnomalyDetection.Designer.cs">
+      <DependentUpon>M04_AnomalyDetection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M05_WorkOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M05_WorkOrder.Designer.cs">
+      <DependentUpon>M05_WorkOrder.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -72,14 +84,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="M01_Schedule.resx">
+      <DependentUpon>M01_Schedule.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="M02_Monitoring.resx">
+      <DependentUpon>M02_Monitoring.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="M03_FacilityManagement.resx">
+      <DependentUpon>M03_FacilityManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M04_AnomalyDetection.resx">
+      <DependentUpon>M04_AnomalyDetection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M05_WorkOrder.resx">
+      <DependentUpon>M05_WorkOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
